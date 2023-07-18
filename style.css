@@ -53,11 +53,14 @@ main {
 main h1 {
   font-weight: normal;
   font-size :50px;
+  width:200%;
+  margin-top: 18%;
+  
 }
 
 main img {
   border-radius: 50%;
-  width: 80%;
+  width: 60%;
   border: 10px solid var(--buttonColor);
   filter: drop-shadow(0px 0px 6px #000);
   float:right;
@@ -87,7 +90,8 @@ main button {
     background: var(--buttonColor);
     color: white;
     border-radius: 10px;
-    width: 15%;
+    width: 30%;
+    margin-top: 10%;
     margin-right: 3%;
 
 }
@@ -137,9 +141,14 @@ section .container {
 }
 
 section .container .description {
-  width: 50%;
+  width: 40%;
   color: var(--desFont);
   font-size: 20px;
+  margin-left: 10%;
+}
+section .container .description h4 {
+  width:50%;
+  
 }
 
 section .container .media {
@@ -209,6 +218,7 @@ footer {
 
 footer img {
   margin-top: 3%;
+  margin-bottom: 2%;
 }
 
 @media screen and (max-width: 800px) {
@@ -242,4 +252,10 @@ footer img {
   section .container .description {
       width: 100%;
   }
+}
+h2{
+  width:200%;
+  font-weight: normal;
+  font-size :35px;
+
 }
