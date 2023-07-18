@@ -1,2 +1,2 @@
 # NEW Portfolio
-This is my Portfolio Project [Live Deployment](divyashaportflio.netlify.app)
+This is my Portfolio Project https://divyashaportflio.netlify.app/
